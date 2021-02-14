@@ -1,0 +1,40 @@
+#splash {
+  position: absolute;
+  z-index: 99;
+  width: 100vw;
+  height: var(--height);
+  background-color: var(--pink);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+
+  animation: animation-splash 1s linear forwards;
+  animation-delay: 3s;
+}
+#splash div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+#splash i {
+  font-size: 150px;
+}
+#splash span {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 55px;
+}
+@keyframes animation-splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

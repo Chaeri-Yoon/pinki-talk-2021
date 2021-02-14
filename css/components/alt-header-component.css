@@ -1,3 +1,7 @@
+.alt-component__header {
+  width: 100%;
+  position: fixed;
+}
 .alt-component__header > * {
   width: 33%;
 }
@@ -12,4 +16,7 @@
 }
 .alt-component__header > *:last-child {
   text-align: end;
+}
+.alt-component__header > *:last-child i:last-child {
+  margin-left: 19px;
 }

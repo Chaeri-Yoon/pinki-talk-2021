@@ -1,9 +1,10 @@
 .list__settings {
   width: 100%;
-  margin-top: 25px;
+  margin-top: 83px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
 
   font-size: 14px;
@@ -33,8 +34,8 @@
 .setting-item-column i {
   margin-right: 15px;
 
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
 }
 .setting-item-column:first-child div {
   margin-left: 5px;

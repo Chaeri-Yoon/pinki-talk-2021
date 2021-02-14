@@ -1,11 +1,15 @@
 @import "reset.css";
 @import "variables.css";
 
+@import "components/splash.css";
+@import "components/no-big-screen.css";
 @import "components/status-bar-component.css";
 @import "components/header-component.css";
 @import "components/alt-header-component.css";
 @import "components/user-component.css";
 @import "components/nav-bar.css";
+@import "components/chat-room-component.css";
+@import "components/keyboard-component.css";
 
 @import "screen/login.css";
 @import "screen/friends.css";
@@ -19,10 +23,6 @@
   font-family: "Raleway", sans-serif;
 }
 body {
-  display: flex;
-  justify-content: center;
-
-  background-color: #e5e0e0;
   color: var(--black);
   font-weight: 600;
 
@@ -47,16 +47,14 @@ input[type="submit"]:active {
 }
 .screen {
   background-color: #f2e8ef;
-  /* 미디어 쿼리로 변경 시 주석 해제
-  /*width: 100%;*/
-  width: 325px;
-  height: 110vh;
+  width: 100%;
+  height: var(--height);
 
   display: flex;
   flex-direction: column;
   align-content: center;
 }
-main {
+main > *:not(header) {
   width: 100%;
   padding: 6px;
 

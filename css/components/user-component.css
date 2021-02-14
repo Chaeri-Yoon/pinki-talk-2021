@@ -1,6 +1,6 @@
 .component__user {
   margin-bottom: 8px;
-  padding: 0 8px;
+  padding: 0 14px;
   width: 100%;
 
   display: flex;
@@ -23,6 +23,10 @@
   align-items: center;
 }
 .component__user-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 30%;
   background-size: cover;
 }
@@ -34,12 +38,7 @@
   width: 35px;
   height: 35px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: var(--yellow);
-  border-radius: 30%;
 }
 .small-component__user-photo i {
   font-size: 20px;
@@ -50,10 +49,8 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-.component__user-info > div:first-child {
-  margin-bottom: 5px;
-}
 .component__user-info > div:nth-child(2) {
+  margin-top: 5px;
   font-size: 10px;
   color: var(--grey);
   font-weight: 400;

@@ -20,7 +20,8 @@
   margin: 0 4px;
 }
 .my-profile {
-  margin-top: 6px;
+  margin-top: 12px;
+  padding-bottom: 5px;
   width: 100%;
 
   border-bottom: var(--pink-border-line);

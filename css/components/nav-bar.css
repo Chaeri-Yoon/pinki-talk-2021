@@ -10,7 +10,7 @@
   position: fixed;
   bottom: 0;
 
-  animation: animation-move-up 1s ease-in-out;
+  animation: animation-nav-bar-move-up 1s ease-in-out;
 }
 .nav-bar a {
   display: flex;
@@ -67,7 +67,7 @@
     opacity: 1;
   }
 }
-@keyframes animation-move-up {
+@keyframes animation-nav-bar-move-up {
   from {
     transform: translateY(40px);
   }

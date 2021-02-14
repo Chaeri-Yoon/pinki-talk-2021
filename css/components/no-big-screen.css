@@ -1,0 +1,19 @@
+#no-big-screen {
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+  height: var(--height);
+  background-color: var(--pink);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: 32px;
+  top: 0;
+}
+
+@media (orientation: portrait) {
+  #no-big-screen {
+    display: none;
+  }
+}

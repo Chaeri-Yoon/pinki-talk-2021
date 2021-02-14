@@ -1,6 +1,9 @@
 :root {
+  --height: 115vh;
+
   --black: #2d2d2d;
   --grey: #b2b1ab;
+  --medium-grey: rgba(227, 227, 237, 0.5);
   --light-grey: #f1f1f2;
   --pink: rgba(247, 0, 185, 1);
   --pink-low-opacity: rgba(247, 0, 185, 0.1);

@@ -1,0 +1,75 @@
+.component__chat-room {
+  margin-top: 73px;
+  padding: 0 15px;
+  font-size: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component__chat-room-date {
+  padding: 6px 9px;
+  border-radius: 20px;
+  color: white;
+  background-color: var(--pink);
+  text-align: center;
+}
+.component__chat-list {
+  padding: 15px 4px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component__chat-list > div {
+  margin-bottom: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  color: var(--grey);
+}
+.component__chat-from-friend {
+  justify-content: flex-start;
+}
+.component__chat-from-me {
+  justify-content: flex-end;
+}
+.component__chat-from-friend-column:nth-child(2) {
+  padding: 2px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.component__chat-from-friend-name {
+  margin-bottom: 5px;
+}
+.component__chat-from-message {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.component__chat-from-message-text {
+  max-width: 60%;
+  word-wrap: break-word;
+  padding: 5px;
+  color: var(--black);
+  font-size: 12px;
+
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  background-color: white;
+}
+
+.component__chat-from-friend .component__chat-from-message {
+  justify-content: flex-start;
+}
+.component__chat-from-me .component__chat-from-message {
+  justify-content: flex-end;
+}
+.component__chat-from-message > div:first-child {
+  margin-right: 5px;
+}
