@@ -25,6 +25,17 @@
   justify-content: center;
   align-items: center;
 }
+.component__header-icons .icon__cog i:hover {
+  animation: animation-rotate 1s linear infinite forwards;
+}
+@keyframes animation-rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
 .component__header-icons .icon__cog div {
   width: 4px;
   height: 4px;

@@ -11,6 +11,7 @@
 @import "screen/friends.css";
 @import "screen/chats.css";
 @import "screen/find.css";
+@import "screen/more.css";
 
 * {
   box-sizing: border-box;
@@ -42,7 +43,10 @@ input[type="submit"]:active {
 }
 .screen {
   background-color: #f2e8ef;
+  /* 미디어 쿼리로 변경 시 주석 해제
+  /*width: 100%;*/
   width: 325px;
+  height: 110vh;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +54,6 @@ input[type="submit"]:active {
 }
 main {
   width: 100%;
-  height: 110vh;
   padding: 6px;
 
   display: flex;

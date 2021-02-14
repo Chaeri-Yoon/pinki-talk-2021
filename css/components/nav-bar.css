@@ -9,6 +9,8 @@
 
   position: fixed;
   bottom: 0;
+
+  animation: animation-move-up 1s ease-in-out;
 }
 .nav-bar a {
   display: flex;
@@ -63,5 +65,13 @@
   100% {
     transform: rotateY(360deg) translateY(0px);
     opacity: 1;
+  }
+}
+@keyframes animation-move-up {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(0);
   }
 }

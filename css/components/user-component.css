@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.component__user-photo-and-info {
+.component__user-column:first-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,42 +44,47 @@
 .small-component__user-photo i {
   font-size: 20px;
 }
-.component__user-more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.channel-component__user-more {
-  color: var(--grey);
-}
-.channel-component__user-more i {
-  margin-left: 4px;
-}
-.component__friend-message {
-  font-size: 10px;
-  color: var(--grey);
-  font-weight: 400;
-}
 .component__user-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
-.component__friend-name,
-.message-time {
+.component__user-info > div:first-child {
   margin-bottom: 5px;
 }
-.message-time {
+.component__user-info > div:nth-child(2) {
+  font-size: 10px;
   color: var(--grey);
+  font-weight: 400;
 }
-.component__user-message-info {
+.component__user-info > div:nth-child(2) span {
+  margin-right: 3px;
+}
+.component__user-info > div:nth-child(2) i {
+  color: red;
+}
+.component__user-column:nth-child(2) {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+
+  color: var(--grey);
 }
-.total-number__message {
+.component__user-column:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component__user-column:nth-child(2) div i {
+  margin-left: 4px;
+}
+.component__user-info span:first-child,
+.component__user-column:nth-child(2) > div:first-child span {
+  margin-bottom: 5px;
+}
+.component__user-column:nth-child(2) > div:nth-child(2) {
   width: 14px;
   height: 14px;
   border-radius: 50%;
