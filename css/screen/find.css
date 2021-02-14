@@ -53,11 +53,11 @@
   align-items: center;
 }
 .recommended-friend:first-child .recommended-friend-photo {
-  background-image: url("/images/prodo.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/prodo.jpg");
   background-size: cover;
 }
 .recommended-friend:nth-child(2) .recommended-friend-photo {
-  background-image: url("/images/muji.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/muji.jpg");
   background-size: cover;
 }
 .recommended-friend-photo {
@@ -126,13 +126,13 @@
   background-size: cover;
 }
 .openchat-item:first-child .openchat-host {
-  background-image: url("/images/nicolas.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/nicolas.png");
 }
 .openchat-item:nth-child(2) .openchat-host {
-  background-image: url("/images/kfc.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/kfc.png");
 }
 .openchat-item:nth-child(3) .openchat-host {
-  background-image: url("/images/irish.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/irish.png");
 }
 .openchat-number-of-members {
   border-right: 2px solid var(--black);
@@ -159,13 +159,13 @@
   background-size: cover;
 }
 .openchat-item:first-child .openchat-photo {
-  background-image: url("/images/nomadcoder.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/nomadcoder.png");
 }
 .openchat-item:nth-child(2) .openchat-photo {
-  background-image: url("/images/chicken.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/chicken.png");
 }
 .openchat-item:nth-child(3) .openchat-photo {
-  background-image: url("/images/ireland.png");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/ireland.png");
 }
 .openchat-like {
   padding: 2px 6px;

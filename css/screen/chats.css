@@ -3,11 +3,11 @@
   font-size: 12px;
 }
 .neo-photo {
-  background-image: url("/images/neo.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/neo.jpg");
 }
 .tube-photo {
-  background-image: url("/images/tube.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/tube.jpg");
 }
 .lion-photo {
-  background-image: url("/images/lion.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/lion.jpg");
 }

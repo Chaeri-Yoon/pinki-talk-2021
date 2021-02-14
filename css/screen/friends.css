@@ -26,7 +26,7 @@
   border-bottom: var(--pink-border-line);
 }
 .my-photo {
-  background-image: url("/images/my-profile.jpg");
+  background-image: url("https://raw.githubusercontent.com/Chaeri-Yoon/pinki-talk-2021/main/images/my-profile.jpg");
 }
 .friends-area {
   margin-top: 6px;
