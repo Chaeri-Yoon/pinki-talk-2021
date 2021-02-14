@@ -1,0 +1,15 @@
+.alt-component__header > * {
+  width: 33%;
+}
+.alt-component__header a i {
+  font-size: 25px;
+}
+.alt-component__header > *:first-child {
+  text-align: start;
+}
+.alt-component__header > *:nth-child(2) {
+  text-align: center;
+}
+.alt-component__header > *:last-child {
+  text-align: end;
+}
