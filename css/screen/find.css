@@ -1,0 +1,207 @@
+.content__find-friends {
+  margin-top: 25px;
+  padding: 0 16px 12px 7px;
+  width: 100%;
+  border-bottom: var(--pink-border-line);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content__find-friends span {
+  font-size: 11px;
+}
+.content__find-friends .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 13px;
+}
+.content__find-friends .icon i {
+  margin-bottom: 19px;
+}
+.content__openchat,
+.content__recommended-friends {
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 6px 6px 6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 10px;
+}
+.content__recommended-friends {
+  border-bottom: var(--pink-border-line);
+}
+.title__openchat,
+.title__recommended-friends {
+  color: var(--grey);
+}
+.list__recommended-friends {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.recommended-friend {
+  margin-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommended-friend:first-child .recommended-friend-photo {
+  background-image: url("/images/prodo.jpg");
+  background-size: cover;
+}
+.recommended-friend:nth-child(2) .recommended-friend-photo {
+  background-image: url("/images/muji.jpg");
+  background-size: cover;
+}
+.recommended-friend-photo {
+  margin-bottom: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+}
+.title__openchat {
+  margin-bottom: 13px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.go-to-openchat-home {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.text__go-to-openchat-home {
+  margin-right: 3px;
+}
+.list__openchat {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.openchat-item {
+  margin-bottom: 16px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.openchat-item-info {
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.openchat-item-info > * {
+  margin-bottom: 3px;
+}
+.openchat-name {
+  font-size: 12px;
+}
+.openchat-state {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.openchat-state > * {
+  padding: 3px;
+}
+.openchat-host {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-size: cover;
+}
+.openchat-item:first-child .openchat-host {
+  background-image: url("/images/nicolas.png");
+}
+.openchat-item:nth-child(2) .openchat-host {
+  background-image: url("/images/kfc.png");
+}
+.openchat-item:nth-child(3) .openchat-host {
+  background-image: url("/images/irish.png");
+}
+.openchat-number-of-members {
+  border-right: 2px solid var(--black);
+}
+.openchat-active {
+  color: var(--pink);
+}
+.openchat-tag,
+.openchat-state {
+  color: var(--grey);
+}
+.openchat-item-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+.openchat-photo {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 7px;
+  background-size: cover;
+}
+.openchat-item:first-child .openchat-photo {
+  background-image: url("/images/nomadcoder.png");
+}
+.openchat-item:nth-child(2) .openchat-photo {
+  background-image: url("/images/chicken.png");
+}
+.openchat-item:nth-child(3) .openchat-photo {
+  background-image: url("/images/ireland.png");
+}
+.openchat-like {
+  padding: 2px 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+
+  color: white;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 42px;
+  left: 16px;
+}
+.openchat-like i {
+  margin-right: 3px;
+}
+.openchat-like i:hover {
+  color: red;
+  will-change: transform;
+  animation: heartBeat 0.5s linear infinite;
+}
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}

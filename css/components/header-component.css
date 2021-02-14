@@ -1,0 +1,53 @@
+.component__header {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.component__header > div {
+  width: 50%;
+}
+.component__header-title {
+  text-align: start;
+}
+.component__header-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.component__header-icons .icon__cog {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component__header-icons .icon__cog div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+
+  background-color: red;
+
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+.component__header-title {
+  font-size: 20px;
+}
+.component__header-icons i {
+  position: relative;
+  font-size: 16px;
+}
+.component__header-icons i:not(:first-child) {
+  margin-left: 14px;
+}
+.component__header-icons span {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}

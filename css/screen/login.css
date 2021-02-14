@@ -1,0 +1,69 @@
+.content__login {
+  width: 100%;
+  margin-top: 65px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.header__welcome {
+  width: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__welcome .welcome-title {
+  font-size: 15px;
+}
+.header__welcome .login-instruction {
+  margin-top: 18px;
+  font-size: 12px;
+  color: var(--grey);
+}
+.form__login {
+  margin-top: 58px;
+  padding: 0 12px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.form__login input[type="text"],
+.form__login input[type="password"] {
+  padding: 14px 0;
+  color: var(--pink);
+  background-color: transparent;
+  border-bottom: var(--pink-border-line);
+}
+.form__login input::placeholder {
+  color: var(--pink);
+}
+.form__login .buttons__submit {
+  margin-top: 26px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__login input[type="submit"] {
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 3px;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+.form__login input[type="submit"]:first-child {
+  margin-bottom: 8px;
+}
+.form__login input[type="submit"]:last-child {
+  margin-bottom: 16px;
+}
+.form__login .login-help {
+  text-align: center;
+  font-size: 10px;
+}

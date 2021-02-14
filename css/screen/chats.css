@@ -1,0 +1,13 @@
+.friends-list {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.neo-photo {
+  background-image: url("/images/neo.jpg");
+}
+.tube-photo {
+  background-image: url("/images/tube.jpg");
+}
+.lion-photo {
+  background-image: url("/images/lion.jpg");
+}

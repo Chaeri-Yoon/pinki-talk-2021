@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/1aa037c88d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="images/pinki.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pinki Talk</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="component__status-bar">
+        <div class="status-bar-signal">
+          <span class="service-status">Three</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar-time">18:43</div>
+        <div class="status-bar-battery">
+          <span class="battery-percentage">75%</span>
+          <i class="battery-icon fas fa-battery-three-quarters"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+      <main>
+        <div class="content__login">
+          <header class="header__welcome">
+            <span class="welcome-title">Welcome to PinkiTalk</span>
+            <span class="login-instruction"
+              >If you have a Pinki Account,<br />log in with your email or phone
+              number.</span
+            >
+          </header>
+          <form class="form__login" method="get" action="friends.html">
+            <input
+              type="text"
+              class="login-id"
+              placeholder="Email or phone number"
+              required
+            />
+            <input
+              type="password"
+              class="login-password"
+              placeholder="Password"
+              minlength="8"
+              required
+            />
+            <div class="buttons__submit">
+              <input type="submit" value="Log In" />
+              <input type="submit" value="Sign Up" />
+            </div>
+            <a href="#" class="login-help">Find Kakao Account or Password</a>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.component__status-bar {
+  width: inherit;
+  background-color: #f2e8ef;
+  padding: 6px;
+  padding-bottom: 14px;
+  z-index: 2;
+
+  font-size: 10px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+}
+.component__status-bar > div {
+  width: 33%;
+}
+.component__status-bar .status-bar-signal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.component__status-bar .service-status {
+  margin-right: 6px;
+}
+.component__status-bar .wifi-icon {
+  font-size: 12px;
+}
+.component__status-bar .status-bar-time {
+  text-align: center;
+}
+.component__status-bar .status-bar-battery {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.component__status-bar .battery-icon {
+  margin: 0 5px;
+}
+.component__status-bar i {
+  font-size: 12px;
+}

@@ -1,0 +1,94 @@
+.component__user {
+  margin-bottom: 8px;
+  padding: 0 8px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.component__user-photo-and-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.component__user-photo {
+  width: 40px;
+  height: 40px;
+
+  margin-right: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component__user-photo {
+  border-radius: 30%;
+  background-size: cover;
+}
+.large-component__user-photo {
+  width: 50px;
+  height: 50px;
+}
+.small-component__user-photo {
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--yellow);
+  border-radius: 30%;
+}
+.small-component__user-photo i {
+  font-size: 20px;
+}
+.component__user-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.channel-component__user-more {
+  color: var(--grey);
+}
+.channel-component__user-more i {
+  margin-left: 4px;
+}
+.component__friend-message {
+  font-size: 10px;
+  color: var(--grey);
+  font-weight: 400;
+}
+.component__user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.component__friend-name,
+.message-time {
+  margin-bottom: 5px;
+}
+.message-time {
+  color: var(--grey);
+}
+.component__user-message-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.total-number__message {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+
+  background-color: var(--pink);
+  font-size: 10px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
