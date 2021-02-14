@@ -56,7 +56,6 @@ input[type="submit"]:active {
 .screen {
   background-color: #f2e8ef;
   width: 100%;
-  /* height: var(--height); */
   height: 100%;
 
   display: flex;
