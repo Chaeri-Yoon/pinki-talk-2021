@@ -4,7 +4,7 @@
   background-color: var(--light-grey);
 
   position: fixed;
-  bottom: 0px;
+  bottom: 6px;
 
   animation: animation-keyboard-move-up 1s ease-in-out;
 }
@@ -90,6 +90,6 @@
     transform: translateX(-6px) translateY(40px);
   }
   to {
-    bottom: 0px;
+    bottom: 6px;
   }
 }
